@@ -41,9 +41,10 @@ katyaButton.addEventListener("click", () => {
   katyaButton.style.transform = `rotate(${Math.round(Math.random() * 12 - 6)}deg)`;
 
   const messages = [
-    "Хи-хи, не поймала 😇",
     "Попробуй ещё раз, принцесса 💗",
-    "Я же говорила, что убегаю 🙈",
+    "Попробуй выбрать правильный ответ",
+    "Коть, правильный!",
+    "КОТЬ...",
     "Ну ладно, ещё попытка! ♡"
   ];
   tinyHint.textContent = messages[(escapes - 1) % messages.length];
